@@ -28,6 +28,20 @@ h1{
     margin-bottom: 0px;
 }
 
+.booleaner{
+    color: #20A9E5;
+    text-decoration: none;
+}
+
+.booleaner:hover{
+    color: orange;
+    transition: 0.1s;
+}
+
+.booleaner:visited{
+    color: rgb(205, 51, 205);
+}
+
 .subt1, .subt2{
     color: #808080;
 }
@@ -84,3 +98,4 @@ thead th:last-child{
     color: white;
     font-weight: 600;
 }
+
