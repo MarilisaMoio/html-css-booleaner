@@ -47,3 +47,21 @@ figure{
 ul{
     margin: 35px 0px;
 }
+
+table{
+    border-collapse: collapse;
+    text-align: center right;
+}
+
+thead{
+    background-color: #20A9E5;
+    color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #B1E5F2;
+}
+
+thead th:last-child{
+    width: 50%
+}
