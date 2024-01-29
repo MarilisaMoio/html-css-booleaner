@@ -32,6 +32,10 @@ h1{
     color: #808080;
 }
 
-.subt2{
+.subt2, figcaption{
     font-size: smaller;
+}
+
+figure{
+    margin-left: 0px;
 }
