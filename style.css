@@ -39,3 +39,7 @@ h1{
 figure{
     margin-left: 0px;
 }
+
+.highlight{
+    background-color: yellow;
+}
