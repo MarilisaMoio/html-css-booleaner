@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Merriweather', serif;
 }
 
 header {
@@ -15,4 +16,22 @@ header {
     position: absolute;
     bottom: 5px;
     left: 10px;
+}
+
+main{
+    margin: 10px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.subt1, .subt2{
+    color: #808080;
+}
+
+.subt2{
+    font-size: smaller;
 }
