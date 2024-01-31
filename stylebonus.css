@@ -13,8 +13,9 @@ header {
 }
 
 .logo{
-    height: 50px;
-    padding-top: 100px;
+    height: 85px;
+    padding-top: 80px;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 .contlogo{
