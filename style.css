@@ -99,3 +99,17 @@ thead th:last-child{
     font-weight: 600;
 }
 
+footer{
+    padding: 10px;
+}
+
+#change-style{
+    padding: 4px;
+    border: 4px outset #1f8dbc;
+    background-color: #71c2e4;
+    color: white;
+    text-decoration: none;
+}
+#change-style:active{
+    border: 4px inset #1f8dbc;
+}
