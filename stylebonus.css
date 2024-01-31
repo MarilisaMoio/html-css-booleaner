@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    background-color: #fedaf2;
+}
+
+header {
+    background-color: #d431bb;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    height: 150px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.418);
+}
+
+.logo{
+    height: 50px;
+    padding-top: 100px;
+}
+
+.contlogo{
+    height: 150px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main{
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418)
+}
+
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.booleaner{
+    color: #d431bb;
+    text-decoration: none;
+}
+
+.booleaner:hover{
+    color: orange;
+    transition: 0.1s;
+}
+
+.booleaner:visited{
+    color: rgb(51, 133, 205);
+}
+
+.subt1, .subt2{
+    color: #808080;
+}
+
+.subt2, figcaption{
+    font-size: smaller;
+}
+
+figure{
+    margin-left: 0px;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+ul{
+    margin: 35px 0px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center right;
+}
+
+thead{
+    background-color: #d431bb;
+    color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #edc2ee;
+}
+
+thead th:last-child{
+    width: 50%
+}
+
+.art1{
+    background-image: url(img/monitor.jpg);
+}
+
+.art2{
+    background-image: url(img/graph.jpg);
+}
+
+.art1, .art2{
+    height: 208px;
+    width: 312px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+footer{
+    padding: 10px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+#change-style{
+    padding: 4px;
+    border: 4px outset #ab419b;
+    background-color: #e266d0;
+    color: white;
+    text-decoration: none;
+}
+#change-style:active{
+    border: 4px inset #ab419b;
+}
